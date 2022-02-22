@@ -8,7 +8,7 @@
 
 .advicegen__container {
     padding: 10px;
-    height: 230px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,8 +42,8 @@
 }
 
 .advicegen__btn {
-    position: fixed;
-    bottom: 320px;
+    position: relative;
+    top: 55px;
     width: 60px;
     height: 60px;
     border: none;
@@ -70,15 +70,15 @@
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .advicegen {
         width: 350px;
         height: 300px;
     }
 
     .advicegen__btn {
-        position: fixed;
-        bottom: 240px;
+        position: relative;
+        top: 40px;
         
     }
 
